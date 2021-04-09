@@ -33,26 +33,26 @@
 ## Server Status
 
 ```js
-const api = require('@freezegold/fivem')
-const server = new api.Server('103.252.88.101:30120')
+const api = require('@freezegold/fivem');
+const server = new api.Server('103.252.88.101:30120');
 server.getServerStatus().then(res => {
-  console.log(res)
-})
+  console.log(res);
+});
 ```
 
 ## Online Players 
 
 ```js
 server.getOnlinePlayers().then(res => {
-  console.log(res)
-})
+  console.log(res);
+});
 ```
 ## Online Player Count
 
 ```js
 server.getOnlinePlayersCount().then(res => {
-  console.log(res)
-})
+  console.log(res);
+});
 ```
 
 
@@ -60,16 +60,16 @@ server.getOnlinePlayersCount().then(res => {
 
 ```js
 server.getMaxSlotPlayer().then(res => {
-  console.log(res)
-})
+  console.log(res);
+});
 ```
 
 ## Server Version
 
 ```js
 server.getVersion().then(res => {
-  console.log(res)
-})
+  console.log(res);
+});
 ```
 
 
@@ -77,30 +77,30 @@ server.getVersion().then(res => {
 
 ```js
 server.getTags().then(res => {
-  console.log(res)
-})
+  console.log(res);
+});
 ```
 
 ## Resources
 
 ```js
 server.getresources().then(res => {
-  console.log(res)
-})
+  console.log(res);
+});
 ```
 
 ## Region Locate
 
 ```js
 server.getLocale().then(res => {
-  console.log(res)
-})
+  console.log(res);
+});
 ```
 
 ## License
 
 ```js
 server.getLicense().then(res => {
-  console.log(res)
-})
+  console.log(res);
+});
 ```
