@@ -1,4 +1,4 @@
-<h1 align="center">Freezegold fiveM 👋</h1>
+<h1 align="center">👋 FiveM API 👋</h1>
 <p align="center">
   <img src="https://img.shields.io/npm/v/@freezegold/fivem.js?orange=blue" />
   <a href="https://www.npmjs.com/package/@freezegold/fivem.js">
