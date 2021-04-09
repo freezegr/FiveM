@@ -1,0 +1,27 @@
+{
+  "name": "@freezegold/fivem",
+  "version": "0.0.1",
+  "description": "api for gta rp servers",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node ./test/index.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freezegr/FiveM.git"
+  },
+  "keywords": [
+    "gta",
+    "fivem"
+  ],
+  "author": "freezegr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freezegr/FiveM/issues"
+  },
+  "homepage": "https://github.com/freezegr/FiveM#readme"
+}
