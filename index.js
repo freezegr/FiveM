@@ -35,7 +35,8 @@ exports.Server = class {
           'Accept-Charset': 'utf-8'
         }
       }, (err, res, body) => {
-        if (err) true new Error(`[FiveM]: ${err}`)
+        if (err) throw new Error(`[FiveM]: ${err}`)
+			     
         resolve(JSON.parse(body))
       });
     });
@@ -49,7 +50,7 @@ exports.Server = class {
           'Accept-Charset': 'utf-8'
         }
       }, (err, res, body) => {
-        if (err) true new Error(`[FiveM]: ${err}`)
+        if (err) throw new Error(`[FiveM]: ${err}`)
         resolve(JSON.parse(body).length)
       });
     });
@@ -63,7 +64,7 @@ exports.Server = class {
           'Accept-Charset': 'utf-8'
         }
       }, (err, res, body) => {
-        if (err) true new Error(`[FiveM]: ${err}`)
+        if (err) throw new Error(`[FiveM]: ${err}`)
         resolve(JSON.parse(body).vars.sv_maxClients)
       });
     });
@@ -77,7 +78,7 @@ exports.Server = class {
           'Accept-Charset': 'utf-8'
         }
       }, (err, res, body) => {
-        if (err) true new Error(`[FiveM]: ${err}`)
+        if (err) throw new Error(`[FiveM]: ${err}`)
         resolve(JSON.parse(body).version)
       });
     });
@@ -91,7 +92,7 @@ exports.Server = class {
           'Accept-Charset': 'utf-8'
         }
       }, (err, res, body) => {
-        if (err) true new Error(`[FiveM]: ${err}`)
+        if (err) throw new Error(`[FiveM]: ${err}`)
         resolve(JSON.parse(body).vars.tags)
       });
     });
@@ -105,7 +106,7 @@ exports.Server = class {
           'Accept-Charset': 'utf-8'
         }
       }, (err, res, body) => {
-        if (err) true new Error(`[FiveM]: ${err}`)
+        if (err) throw new Error(`[FiveM]: ${err}`)
         resolve(JSON.parse(body).resources)
       });
     });
@@ -119,7 +120,7 @@ exports.Server = class {
           'Accept-Charset': 'utf-8'
         }
       }, (err, res, body) => {
-        if (err) true new Error(`[FiveM]: ${err}`)
+        if (err) throw new Error(`[FiveM]: ${err}`)
         resolve(JSON.parse(body).vars.locale)
       });
     });
@@ -133,7 +134,7 @@ exports.Server = class {
           'Accept-Charset': 'utf-8'
         }
       }, (err, res, body) => {
-        if (err) true new Error(`[FiveM]: ${err}`)
+        if (err) throw new Error(`[FiveM]: ${err}`)
         resolve(JSON.parse(body).vars.sv_licenseKeyToken)
       });
     });

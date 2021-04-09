@@ -1,6 +1,6 @@
 {
   "name": "@freezegold/fivem",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "api for gta rp servers",
   "main": "index.js",
   "dependencies": {
